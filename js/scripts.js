@@ -4,7 +4,7 @@ const qrCodeBtn = document.querySelector("#qr-form button");
 const qrCodeInput = container.querySelector("#qr-form input");
 const qrCodeImg = container.querySelector("#qr-code img");
 
-// Gerar código
+// Generate code
 function generateQrCode() {
   let qrCodeInputValue = qrCodeInput.value;
 
@@ -30,7 +30,7 @@ qrCodeInput.addEventListener("keydown", (e) => {
   }
 });
 
-// Limpar área do código
+// Clear code area
 qrCodeInput.addEventListener("keyup", () => {
   if (!qrCodeInput.value) {
     container.classList.remove("active");
