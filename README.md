@@ -2,4 +2,4 @@
 
 QR Code Generator
 
-I'm worked on this simple project to learn about JavaScript and APIs. 📚
+I'm worked on this project to learn about JavaScript and APIs. 📚
